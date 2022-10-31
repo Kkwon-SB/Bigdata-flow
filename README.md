@@ -64,7 +64,7 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 
    <br>
 
-# 5. 팀원 역할
+# 5. 나의 역할
 
 | Name   | Position   |
 | ------ | ---------- |
@@ -72,5 +72,7 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 | 권순빈 | Hive, Datawarehouse         | 
 | 정인식 | Hadoop eco system | 
 | 최순재 | Pyspark, ETL, Visualization  |
+
+# 6. 배운 점 느낀점 등
 
 <br> <br>
