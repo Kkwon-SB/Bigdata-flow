@@ -1,0 +1,6 @@
+#vim $HIVE_HOME/conf/hive-log4j2.properties
+property.hive.log.dir = /usr/local/hive/logs
+
+
+#vim $HIVE_HOME/conf/hive-exec-log4j2.properties
+property.hive.log.dir = /usr/local/hive/logs

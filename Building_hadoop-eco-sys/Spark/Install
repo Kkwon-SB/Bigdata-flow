@@ -1,0 +1,5 @@
+cd ~/downloads
+wget https://archive.apache.org/dist/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz
+sudo tar -xzvf spark-3.2.1-bin-hadoop3.2.tgz -C /usr/local
+sudo chown -R $USER:$USER /usr/local/spark-3.2.1-bin-hadoop3.2
+cd /usr/local && sudo ln -s /usr/local/spark-3.2.1-bin-hadoop3.2 spark

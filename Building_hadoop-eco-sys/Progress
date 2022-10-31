@@ -1,0 +1,77 @@
+##Zookeeper 실행
+
+#nn1 zookeeper 시작
+$ sudo /usr/local/zookeeper/bin/zkServer.sh start
+
+#nn2 zookeeper 시작
+$ sudo /usr/local/zookeeper/bin/zkServer.sh start
+
+#dn1 zookeeper 시작
+$ sudo /usr/local/zookeeper/bin/zkServer.sh start
+
+##Zookeeper 상태 확인
+sudo /usr/local/zookeeper/bin/zkServer.sh status
+
+##HDFS ZKFC 초기화, nn1에서만 진행
+hdfs zkfc -formatZK
+
+#--------------------------------------------------------
+
+##Journalnode . nn1, nn2, dn1 실행,
+hdfs --daemon start journalnode
+
+
+#--------------------------------------------------------
+
+##NameNode 초기화, nn1에서만 실행
+# hdfs namenode 포맷, 포맷을 진행하려면 journalnode 가 떠 있어야 한다.
+$ hdfs namenode -format
+
+# hdfs namenode 실행
+$ hdfs --daemon start namenode
+
+# Standby NameNode진행한다(nn2 에서만)
+$ hdfs namenode -bootstrapStandby
+$ hdfs --daemon start namenode
+
+# Hadoop 실행
+$ start-dfs.sh #해당 단계에서 “DFSZKFailoverController” 프로세스가 실행
+
+#Yarn 실행(nn1 에서만)
+$ start-yarn.sh #해당 단계에서 “ResourceManager” 프로세스가 실행 #DataNode 서버에서는 “NodeManager” 프로세스가 실행된다.
+
+#JobHistory 실행(nn1 에서만)
+$ mapred --daemon start historyserver #해당 단계에서 “JobHistoryServer” 프로세스가 실행
+
+# Active, Standby Namenode 확인
+$ hdfs haadmin -getServiceState namenode1 
+$ hdfs haadmin -getServiceState namenode2
+
+# Active, Standby ResourceManager 확인
+$ yarn rmadmin -getServiceState rm1
+$ yarn rmadmin -getServiceState rm2
+
+#--------------------------------------------------------
+
+##Spark 클러스터 실행(nn1)
+
+$SPARK_HOME/sbin/start-all.sh
+
+#--------------------------------------------------------
+
+#Hive HDFS 작업 디렉토리 생성 및 권한 설정
+# Hive Process의 중간 데이터 결과를 저장할 tmp 폴더 만들기
+$ hadoop fs -mkdir /tmp
+$ hadoop fs -chmod g+w /tmp
+$ hadoop fs -ls /
+
+# Hive Process의 중간 데이터 결과를 저장할 tmp 폴더 만들기
+$ hadoop fs -mkdir /tmp
+$ hadoop fs -chmod g+w /tmp
+$ hadoop fs -ls /
+
+# MySQL 로 초기화(dn1)
+$HIVE_HOME/bin/schematool -dbType mysql -initSchema
+
+# 하이브 CLI 접속
+hive

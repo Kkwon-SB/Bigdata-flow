@@ -1,0 +1,5 @@
+$ mkdir ~/downloads && cd ~/downloads
+$ wget https://dlcdn.apache.org/hadoop/common/hadoop-3.2.3/hadoop-3.2.3.tar.gz
+$ sudo tar -zxvf hadoop-3.2.3.tar.gz -C /usr/local
+$ sudo chown -R $USER:$USER /usr/local/hadoop-3.2.3
+$ cd /usr/local && sudo ln -s hadoop-3.2.3 hadoop

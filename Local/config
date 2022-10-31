@@ -1,0 +1,28 @@
+# config 편집
+vim ~/.ssh/config
+
+# 아래 내용으로 수정 후 저장
+Host nn1
+        HostName 000.000.000.001
+        User ubuntu
+        IdentityFile ~/local/hadoop_eco_system.pem
+
+Host nn2
+        HostName 000.000.000.002
+        User ubuntu
+        IdentityFile ~/local/hadoop_eco_system.pem
+
+Host dn1
+        HostName 000.000.000.003
+        User ubuntu
+        IdentityFile ~/local/hadoop_eco_system.pem
+
+Host dn2
+        HostName 000.000.000.004
+        User ubuntu
+        IdentityFile ~/local/hadoop_eco_system.pem
+
+Host dn3
+        HostName 000.000.000.005
+        User ubuntu
+        IdentityFile ~/local/hadoop_eco_system.pem

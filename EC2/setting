@@ -1,0 +1,7 @@
+<!-- 모든 인스턴스에 Hosts 파일 복제 -->
+<!-- nn1 진행 -->
+
+cat /etc/hosts | ssh nn2 "sudo sh -c 'cat >/etc/hosts'"
+cat /etc/hosts | ssh dn1 "sudo sh -c 'cat >/etc/hosts'"
+cat /etc/hosts | ssh dn2 "sudo sh -c 'cat >/etc/hosts'"
+cat /etc/hosts | ssh dn3 "sudo sh -c 'cat >/etc/hosts'"
