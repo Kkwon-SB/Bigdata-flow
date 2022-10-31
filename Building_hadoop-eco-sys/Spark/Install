@@ -3,3 +3,8 @@ wget https://archive.apache.org/dist/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2
 sudo tar -xzvf spark-3.2.1-bin-hadoop3.2.tgz -C /usr/local
 sudo chown -R $USER:$USER /usr/local/spark-3.2.1-bin-hadoop3.2
 cd /usr/local && sudo ln -s /usr/local/spark-3.2.1-bin-hadoop3.2 spark
+
+
+$ sudo apt-get install -y python3-pip
+$ python3 -V
+$ sudo pip3 install pyspark findspark

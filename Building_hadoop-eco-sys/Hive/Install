@@ -7,3 +7,10 @@ sudo tar xvfz apache-hive-3.1.2-bin.tar.gz -C /usr/local/
 sudo chown -R $USER:$USER /usr/local/apache-hive-3.1.2-bin
 
 cd /usr/local && sudo ln -s apache-hive-3.1.2-bin hive
+
+# mysql connector 다운로드
+$ wget http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.27.tar.gz
+
+$ tar xvfz mysql-connector-java-5.1.27.tar.gz
+
+$ cp mysql-connector-java-5.1.27/*.jar $HIVE_HOME/lib
