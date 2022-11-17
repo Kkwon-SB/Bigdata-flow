@@ -37,9 +37,11 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 ![image](https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png)
 
 **1.하둡**
-<img width="500" alt="" src="https://user-images.githubusercontent.com/76522430/202516933-9f137909-d6bf-4ec2-ba3b-3a0853127c13.png">
-![image](https://user-images.githubusercontent.com/76522430/202516933-9f137909-d6bf-4ec2-ba3b-3a0853127c13.png)
-![image](https://user-images.githubusercontent.com/76522430/202517034-94db9866-2aa6-4014-90df-ee2b81f8a476.png)
+<br>
+<img width="600" alt="" src="https://user-images.githubusercontent.com/76522430/202516933-9f137909-d6bf-4ec2-ba3b-3a0853127c13.png">
+<img width="600" alt="" src="https://user-images.githubusercontent.com/76522430/202517034-94db9866-2aa6-4014-90df-ee2b81f8a476.png">
+<!-- ![image](https://user-images.githubusercontent.com/76522430/202516933-9f137909-d6bf-4ec2-ba3b-3a0853127c13.png)
+![image](https://user-images.githubusercontent.com/76522430/202517034-94db9866-2aa6-4014-90df-ee2b81f8a476.png) -->
 
 ##하이브
 ![image](https://user-images.githubusercontent.com/76522430/202517305-3a749767-4a5e-4d7c-9405-cd6627fcb239.png)
