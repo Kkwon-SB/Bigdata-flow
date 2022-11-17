@@ -75,8 +75,14 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 # 4. 데이터
 
 -   [new-york-city-taxi-fare](https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data)<br>
+### 선정 이유
+-    간단한 회귀 모델을 만들기에 적합한 시계열 데이터 선정
 
-   <br>
+### 활용 방안
+-    회귀분석을 통해 종속 변수와 독립 변수 간의 관계를 파악
+-    머신러닝을 통해 택시 총 매출을 예측하는 선형 회귀 모델 구축
+
+<br>
 
 # 5. 나의 역할
 ###  Hadoop eco system 구축
