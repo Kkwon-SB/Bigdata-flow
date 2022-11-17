@@ -67,7 +67,7 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 **5.S3**
 <br>
 <img width="600" alt="" src="https://user-images.githubusercontent.com/76522430/202518088-6c22a8da-a628-4af6-920a-f2325f4066db.png">
--    다른 인스턴스들은 서로 연결되어 있는 반면, MLflow 사용을 위해 분리된 별개의 고성능 인스턴스 생성했기 때문에 AWS S3사용(Spark - S3 - MLflow)
+-    다른 인스턴스들은 서로 연결되어 있는 반면, MLflow 사용을 위해 분리된 별개의 고성능 인스턴스 생성했다. <br>분리된 인스턴스간에 완만한 데이터 통신을 위해 AWS S3사용(Spark - S3 - MLflow)
 
 <br><br>
 
