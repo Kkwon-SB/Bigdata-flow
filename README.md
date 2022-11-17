@@ -36,8 +36,8 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 
 ![image](https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png)
 
-<br>
-### 진행 과정
+
+###  진행 과정
 -   EC2 환경에서 HDFS 클러스터로 데이터 저장
 -   HIVE Query 사용하여 데이터 파티션 저장
 -   Spark ETL 및 시각화 처리 & Airflow 모니터링
