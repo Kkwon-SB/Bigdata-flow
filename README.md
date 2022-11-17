@@ -24,6 +24,9 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 **0.프로젝트 구조도**
 <br>
 <img width="750" alt="" src="https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png">
+-    네임노드(instances 2개)
+-    데이터노드(instances 3개)
+-    MLflow(higher instance1개)  
 <!-- ![image](https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png) -->
 
 **1.하둡**
