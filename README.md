@@ -36,6 +36,31 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 
 ![image](https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png)
 
+##하둡
+![image](https://user-images.githubusercontent.com/76522430/202516933-9f137909-d6bf-4ec2-ba3b-3a0853127c13.png)
+![image](https://user-images.githubusercontent.com/76522430/202517034-94db9866-2aa6-4014-90df-ee2b81f8a476.png)
+
+##하이브
+![image](https://user-images.githubusercontent.com/76522430/202517305-3a749767-4a5e-4d7c-9405-cd6627fcb239.png)
+![image](https://user-images.githubusercontent.com/76522430/202517375-6fe4e8ea-5b87-425e-8df2-a3ab8313e706.png)
+
+##스파크
+![image](https://user-images.githubusercontent.com/76522430/202517787-1589eb8b-a6d7-420f-98e8-83b7c1a71ab0.png)
+![image](https://user-images.githubusercontent.com/76522430/202517796-9252c2f6-461c-40eb-8bdd-bb7655dd6a72.png)
+![image](https://user-images.githubusercontent.com/76522430/202517807-59fd2bf6-84b9-4561-aa0f-529d487c6963.png)
+
+##Airflow
+![image](https://user-images.githubusercontent.com/76522430/202518054-e844cbf8-d67d-4155-bb7e-0cf209e550bd.png)
+![image](https://user-images.githubusercontent.com/76522430/202518072-0e927af7-00a3-4990-bc36-510d54c316b3.png)
+
+##S3
+![image](https://user-images.githubusercontent.com/76522430/202518088-6c22a8da-a628-4af6-920a-f2325f4066db.png)
+
+##MLflow
+![image](https://user-images.githubusercontent.com/76522430/202518290-f0015d7f-d6a9-4126-8a90-3723b18e9257.png)
+![image](https://user-images.githubusercontent.com/76522430/202518301-b08dc168-f870-4a78-9452-5d7e0ce58a54.png)
+![image](https://user-images.githubusercontent.com/76522430/202518310-ad3b1535-5380-4a88-8217-3d657bca3427.png)
+
 
 ###  진행 과정
 -   EC2 환경에서 HDFS 클러스터로 데이터 저장
@@ -85,14 +110,15 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 <br>
 
 # 5. 나의 역할
+
 ###  Hadoop eco system 구축
-
-
+- 
+<br>
 ### Datawarehouse 구축 & 데이터 적재
 
 
 
-# 6. 성능 개선 및 에러 
+# 6. 성능 개선 및 에러 사항
 -    Shell script를 사용하여 데이터 적재할 때, 업로드 시간 문제
 -    Yarn 스케쥴러 설정
 -    Map & Reducer 메모리 부족으로 인한 에러
