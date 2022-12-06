@@ -1,7 +1,8 @@
+<h2>
 <a target="_blank" href="https://eminent-pruner-9ad.notion.site/1ed29d1da6df464390c238ddd6adfb99">
    [프로젝트 과정에서 배운것 & 트러블 슈팅 과정]
 </a>
-<h2><a href="https://eminent-pruner-9ad.notion.site/1ed29d1da6df464390c238ddd6adfb99" target="_blank">blank</a></h2>
+</h2>
 
 # 1. 소개
 
