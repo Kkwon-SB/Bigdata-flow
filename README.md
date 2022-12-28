@@ -132,6 +132,8 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 
 # 4. 데이터
 -   [new-york-city-taxi-fare](https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data)<br>
+<img width="349" alt="1111" src="https://user-images.githubusercontent.com/76522430/209853735-e8762c59-bf19-447e-867f-e7f3d95f4d28.png">
+
 ### 선정 이유
 -    간단한 회귀 모델을 만들기에 적합한 시계열 데이터 선정
 
@@ -141,18 +143,6 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 
 <br>
 
-<!-- 
-# 5. 나의 역할
-
-###  Hadoop eco system 구축
-- 어떻게 구축? -> 오픈소스 가져와서...
-- 왜 네임2게 데이터3개 사용??
-<br>
-### Datawarehouse 구축 & 데이터 적재 
--
-기타질문
-Q. 왜 하둡사용? (저장소 차이 알고 있는지) 
--->
 
 # 6. 성능 개선 및 에러 사항
 -    Shell script를 사용하여 데이터 적재할 때, 업로드 시간 문제
