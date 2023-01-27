@@ -19,9 +19,9 @@
 <b>개발 기간</b> : '22.09.15 ~ '22.11.02</br></br>
 
 <b>기업 요청 사항</b> : 빅데이터 저장 - Hadoop & Hive, Apache HBase</br>
-                       Cluster&Configuration Center - Zookeeper</br>
-                       Cluster computing framework - Spark</br>
-                       ML Pipeline - MLOps 환경</br>
+                 Cluster&Configuration Center - Zookeeper</br>
+                 Cluster computing framework - Spark</br>
+                 ML Pipeline - MLOps 환경</br>
 </code>
 </pre>
 
