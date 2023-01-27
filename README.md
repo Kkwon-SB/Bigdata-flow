@@ -5,21 +5,28 @@
 </h4>
 
 
-# CRCS
->기업연계프로젝트인 캡스톤 디자인 팀 프로젝트에 의해 제작한 CRCS(CropRemoteControlSystem) 어플리케이션 (Android Only)
+# Bigdata-flow
+> <b>기업 연계 프로젝트 '데이터엔지니어링 팀 6조'에 의해 제작된 빅데이터 분석 프레임워크</b>
 
 <pre>
 <code>
-주제 : 농작물 원격 제어 시스템</br>
-설명 : 아두이노와 안드로이드 어플리케이션을 사용한 농작물 원격 제어 시스템 구축</br>
-팀 인원 : 4명</br>
-맡은 역할 : 앱 개발 및 아두이노와 Google firebase 연동을 통한 데이터 송수신</br>
-개발 기간 : '22.03.08 ~ '22.06.08</br>
-개발 언어 : Java</br>
-개발 환경 : Windows 10 pro,
-            Jdk 1.8('22.03.08 ~ '22.05.14) -> Jdk 11('22.05.15),
-            Android Studio Bumblebee('22.03.08 ~ '22.05.14) -> Android Studio Chipmunk('22.05.15)
+<b>주제</b> : 빅데이터 분석 프레임워크 구축</br></br>
+
+<b>설명</b> : 빅데이터 구축 시 마다 분석/설계 부터 인력 투입 커스터마이징까지 많은 견적이 요소가 포함되어
+금액 부담이 많다. 해당 과정을 표준화하여 공통된 Middleware 프레임워크를 구축하기 위한 핵심 요소를 구현
+</br></br>
+<b>팀 인원</b> : 4명</br></br>
+
+<b>맡은 역할</b> : 앱 개발 및 아두이노와 Google firebase 연동을 통한 데이터 송수신</br></br>
+
+<b>개발 기간</b> : '22.03.08 ~ '22.06.08</br></br>
+
+<b>기업 요청 사항</b> : 빅데이터 저장 - Hadoop & Hive, Apache HBase</br>
+            Cluster&Configuration Center - Zookeeper</br>
+            Cluster computing framework - Spark</br>
+            ML Pipeline - MLOps 환경</br>
 </code>
+</pre>
 
 
 
