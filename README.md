@@ -1,8 +1,27 @@
 <h4>
 <a target="_blank" href="https://eminent-pruner-9ad.notion.site/1ed29d1da6df464390c238ddd6adfb99">
-   [프로젝트에서 배운 내용 & 트러블 슈팅 과정]
+   [배운 내용 & 트러블 슈팅 과정]
 </a>
 </h4>
+
+
+# CRCS
+>기업연계프로젝트인 캡스톤 디자인 팀 프로젝트에 의해 제작한 CRCS(CropRemoteControlSystem) 어플리케이션 (Android Only)
+
+<pre>
+<code>
+주제 : 농작물 원격 제어 시스템</br>
+설명 : 아두이노와 안드로이드 어플리케이션을 사용한 농작물 원격 제어 시스템 구축</br>
+팀 인원 : 4명</br>
+맡은 역할 : 앱 개발 및 아두이노와 Google firebase 연동을 통한 데이터 송수신</br>
+개발 기간 : '22.03.08 ~ '22.06.08</br>
+개발 언어 : Java</br>
+개발 환경 : Windows 10 pro,
+            Jdk 1.8('22.03.08 ~ '22.05.14) -> Jdk 11('22.05.15),
+            Android Studio Bumblebee('22.03.08 ~ '22.05.14) -> Android Studio Chipmunk('22.05.15)
+</code>
+
+
 
 # 1. 소개
 
