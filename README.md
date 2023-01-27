@@ -15,16 +15,13 @@
 <b>설명</b> : 빅데이터 구축 시 마다 분석/설계 부터 인력 투입 커스터마이징까지 많은 견적이 요소가 포함되어
 금액 부담이 많다. 해당 과정을 표준화하여 공통된 Middleware 프레임워크를 구축하기 위한 핵심 요소를 구현
 </br></br>
-<b>팀 인원</b> : 4명</br></br>
-
-<b>맡은 역할</b> : Hadoop eco system 사용한 분산 처리 시스템 구축, Hive 동적 파티션 생성을 통한 효율적인 데이터 분석 환경 구축</br></br>
 
 <b>개발 기간</b> : '22.09.15 ~ '22.11.02</br></br>
 
 <b>기업 요청 사항</b> : 빅데이터 저장 - Hadoop & Hive, Apache HBase</br>
-            Cluster&Configuration Center - Zookeeper</br>
-            Cluster computing framework - Spark</br>
-            ML Pipeline - MLOps 환경</br>
+                       Cluster&Configuration Center - Zookeeper</br>
+                       Cluster computing framework - Spark</br>
+                       ML Pipeline - MLOps 환경</br>
 </code>
 </pre>
 
