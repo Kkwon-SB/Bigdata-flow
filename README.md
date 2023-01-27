@@ -1,6 +1,6 @@
 <h4>
 <a target="_blank" href="https://eminent-pruner-9ad.notion.site/1ed29d1da6df464390c238ddd6adfb99">
-   [배운 내용 & 트러블 슈팅 과정]
+   [배운 내용 & 트러블 슈팅]
 </a>
 </h4>
 
@@ -17,9 +17,9 @@
 </br></br>
 <b>팀 인원</b> : 4명</br></br>
 
-<b>맡은 역할</b> : 앱 개발 및 아두이노와 Google firebase 연동을 통한 데이터 송수신</br></br>
+<b>맡은 역할</b> : Hadoop eco system 사용한 분산 처리 시스템 구축, Hive 동적 파티션 생성을 통한 효율적인 데이터 분석 환경 구축</br></br>
 
-<b>개발 기간</b> : '22.03.08 ~ '22.06.08</br></br>
+<b>개발 기간</b> : '22.09.15 ~ '22.11.02</br></br>
 
 <b>기업 요청 사항</b> : 빅데이터 저장 - Hadoop & Hive, Apache HBase</br>
             Cluster&Configuration Center - Zookeeper</br>
