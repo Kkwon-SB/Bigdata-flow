@@ -17,10 +17,10 @@
 
 <b>개발 기간</b> : '22.09.15 ~ '22.11.02</br></br>
 
-<b>기업 요청 사항</b> : 빅데이터 저장 - Hadoop & Hive, Apache HBase</br>
+<b>기업 요청 사항</b> : 빅데이터 저장 공간 구축 - Hadoop & Hive, Apache HBase</br>
                  Cluster&Configuration Center - Zookeeper</br>
                  Cluster computing framework - Spark</br>
-                 ML Pipeline - MLOps 환경</br>
+                 ML Pipeline 구축 - MLOps 환경</br>
 </code>
 </pre>
 
@@ -62,9 +62,9 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 **0.프로젝트 구조도**
 <br>
 <img width="750" alt="" src="https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png">
--    네임노드(instances 2개)
--    데이터노드(instances 3개)
--    MLflow(higher instance1개)  
+-    네임노드(Basic instances 2개) t3.small
+-    데이터노드(Basic instances 3개) t3.small
+-    MLflow(High instance1개) t3.Xlarge
 <!-- ![image](https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png) -->
 
 **1.하둡**
