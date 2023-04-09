@@ -5,9 +5,7 @@
 </h4>
 
 
-# Bigdata-flow
-> <b>기업 연계 프로젝트 '데이터엔지니어링 팀 6조'에 의해 제작된 빅데이터 분석 프레임워크</b>
-
+## 빅데이터플로우
 <pre>
 <code>
 <b>주제</b> : 빅데이터 분석 프레임워크 구축</br></br>
@@ -21,44 +19,33 @@
                  Cluster&Configuration Center - Zookeeper</br>
                  Cluster computing framework - Spark</br>
                  ML Pipeline 구축 - MLOps 환경</br>
+                 
+<b>팀원 역할</b></br>                 
+- 박정기(Leader) : MLflow, Pyspark
+- 최순제 : Pyspark, visualization
+- 정인식 : Hadoop eco system
+- 권순빈(ME) : Hadoop eco system & Data HDFS
+                 
+                 
 </code>
 </pre>
 
 
 
-# 1. 소개
+## 1. 소개
 
-빅데이터 구축 시 발생하는 비용 문제를 개선하고자 프로젝트를 진행했습니다.<br><br>
+많은 중소기업 및 스타트업이 비용 문제로 빅데이터 플랫폼 사용에 어려움이 있다는 것을 확인했습니다.<br>
 
 빅데이터 처리 과정에서 분석/설계/인력 등 큰 비용이 발생합니다. 소규모의 회사에서는 자사의DB시스템 구축 또는 EMR서비스를 사용하기 부담스러운 비용적인 문제가 있습니다.<br>
 
-<!--
-<h2>빅데이터 처리 과정에서 분석/설계/인력 등 큰 비용이 발생하기 때문에 소규모의 회사에서는 자사의DB시스템을 구축하거나 EMR서비스를 사용하기 부담스러운 문제가 있다.<br>
-
-//Hadoop eco system을 기반으로 한 Datapipeline & MLops 프레임워크 구축 과정의 프로젝트 입니다.<br>
-//MLOps 구축하여 파이프라이닝되는 과정까지를 표준화, 공통된 Middleware 프레임워크를 구축하기 위한 핵심 요소를 구현하였습니다.
-
-'''
-### 💊목적
-중소기업, 스타트업과 같은 회사에서는 분석/설계/인력 등 금액 부담이 발생하는 문제가 발생하기 때문에 자사의 DB시스템을 구축하거나 AWS의 EMR서비스를 이용하기 어려운 문제가 있다.<br> 
-해당 프로젝트의 빅데잍 프레임워크를 통해서 중소,스타트업의 빅데이터 구축 시 발생하는 비용 문제를 해결할 수 있을 것으로 기대된다. 
-'''
--->
-   
 ### 🎯목표
 
-aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임워크 구축한다
+빅데이터 구축 시 발생하는 비용 문제를 최소화하기 위한 방법으로 Open Source를 통한 플랫폼 구축과 기업 데이터 사용량에 맞는 인스턴스 사용으로 프로젝트를 진행했습니다.<br>
+- 빅데이터 플랫폼을 구축
+- Open Source 설치
+- 실용적인 인스턴스 사용
 
--   MLOps 구축하여 DataPipeline 과정을 표준화
--   공통된 Middleware 프레임워크를 구축하기 위한 핵심 요소를 구현
-<!--
-### 💣문제 정의
-
-요즘 같은 대정보화 시대에 빅데이터 처리는 필수 불가결한 부분이다. 규모가 큰 기업이 아닌 작은 기업, 스타트업과 같은 회사에서는 자회사의 DB시스템을 구축하거나 AWS의 EMR서비스를 이용하기 어려운 문제가 있기 때문에 빅데이터 구축 시 분석/설계/인력 등 많은 견적이 요소가 포함되어 금액 부담이 발생하는 문제가 발생한다.
-<br>
--->
-
-# 2. S/W architecture🖼
+## 2. S/W architecture🖼
 **0.프로젝트 구조도**
 <br>
 <img width="750" alt="" src="https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png">
@@ -125,7 +112,7 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 -   MLflow 사용하여 머신러닝 실행 및 라이프 사이클 관리
 
 <br><br>
-# 3. 사용 기술🛠
+## 3. 사용 기술🛠
 
 **Environment**
 
@@ -152,7 +139,7 @@ aws ec2 환경에서 빅데이터 분석 및 데이터 파이프라인 프레임
 
 <br>
 
-# 4. 데이터
+## 4. 데이터
 -   [new-york-city-taxi-fare](https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data)<br>
 <img width="349" alt="1111" src="https://user-images.githubusercontent.com/76522430/209853735-e8762c59-bf19-447e-867f-e7f3d95f4d28.png">
 
