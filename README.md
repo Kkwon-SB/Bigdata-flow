@@ -25,8 +25,6 @@
 - 최순제 : Pyspark, visualization
 - 정인식 : Hadoop eco system
 - 권순빈(ME) : Hadoop eco system & Data HDFS
-                 
-                 
 </code>
 </pre>
 
